@@ -1,8 +1,4 @@
-.box111 {
-    width: calc(1920 * var(--pv));
-    height: calc(1080 * var(--pv));
-    background-color: aqua;
-}
+
 
 .music {
     position: relative;
@@ -328,28 +324,3 @@
 
 
 
-.red-line img {
-    position: absolute;
-    width: 1000px;
-    height: 1000px;
-    white-space: nowrap;
-    transform: translate(1400px, -1000px);
-    overflow: hidden;
-
-}
-
-.yellow-line {
-    position: absolute;
-    width: 800px;
-    height: 800px;
-    transform: translate(-400px, 100px);
-    overflow: hidden;
-}
-
-.more img {
-    position: absolute;
-    height: 50px;
-    bottom: 10%;
-    left: 70%;
-
-}

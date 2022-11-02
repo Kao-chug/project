@@ -42,6 +42,7 @@
             .detail-left {
                 flex: none;
                 height: 300px;
+                display: flex;
             }
         }
 
@@ -52,8 +53,7 @@
 
         @media (max-width: 600px) {
             .detail-left img {
-                width: 35%;
-                height: 70%;
+                width: 50%;
                 margin: auto;
             }
         }
@@ -98,6 +98,8 @@
             letter-spacing: 0.1em;
             color: #FFFFFF;
             margin: auto;
+            text-overflow:ellipsis;
+           
         }
 
         @media (max-width: 600px) {
@@ -116,7 +118,7 @@
                 line-height: 20px;
                 letter-spacing: 0.1em;
                 color: #FFFFFF;
-                margin: auto;
+                margin-top: 30px;
 
             }
         }
@@ -160,6 +162,7 @@
 
             .detail-right-top {
                 height: 100px;
+                display: flex;
             }
 
             .detail-back img {
@@ -212,8 +215,10 @@
                 flex-direction: row;
                 align-items: left;
                 margin-top: 0%;
-                margin-left: 18%;
+                margin-left: 0%;
                 align-items: center;
+              
+           
 
             }
 
@@ -239,7 +244,7 @@
                 display: inline-block;
                 width: 50px;
                 height: 50px;
-                vertical-align: middle;
+                margin-left: 10px;
             }
 
 
@@ -294,7 +299,7 @@
             }
 
             .detail-rbd {
-                width: 42%;
+                width: 58%;
                 display: flex;
 
             }
@@ -390,7 +395,7 @@
                     <div class="detail-rbc">
                         <img class="im1" src="./cd/icon、裝飾圖/icon_stopmusic.svg" alt="">
                         <audio control autoplay loop id="music1">
-                            <source src="./音檔片段/好氣氛 MASTER FINAL 1005_01.wav">
+                            <!-- <source src="./音檔片段/好氣氛 MASTER FINAL 1005_01.wav"> -->
                         </audio>
                     </div>
                     <div class="detail-rbd">
